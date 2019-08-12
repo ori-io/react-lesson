@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import Kuso from './App';
 
 ReactDOM.render(
-    <div>Hello world</div>,
+    <Kuso />,
     document.getElementById('root'));
