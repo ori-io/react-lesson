@@ -8,6 +8,10 @@
     "react-dom": "^16.9.0"
   },
   "devDependencies": {
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
   }
