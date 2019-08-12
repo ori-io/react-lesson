@@ -26,6 +26,13 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         publicPath: '/'
     },
+    devServer: {
+        contentBase: path.resolve(__dirname, 'dist/'),
+        port: 3000,
+        historyApiFallback: {
+            index: '/',
+        },
+    },
     plugins: [
         new htmlWebpackPlugin({
             template: "index.html"
